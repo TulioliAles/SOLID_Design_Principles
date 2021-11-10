@@ -4,6 +4,8 @@ using System;
 
 namespace SingleResponsibilityPrinciple
 {
+    //Regra SRP: Cada classe deve ter apenas uma responsabilidade bem como uma única razão para alteração.
+
     class Program
     {
         static void Main(string[] args)
