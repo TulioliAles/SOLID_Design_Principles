@@ -23,7 +23,7 @@ namespace OpenClosedPrinciple
 
             funcionarios.Add(new FuncionarioPleno { Nome = "Alessandro", Conta = "12345-6", Salario = 1000, CargaHorariaMes = 220, HorasTrabalhadasMes = 200 });
             funcionarios.Add(new FuncionarioSenior { Nome = "Maria", Conta = "75223-4", Salario = 1000, CargaHorariaMes = 220, HorasTrabalhadasMes = 200 });
-            funcionarios.Add(new Funcionario { Nome = "Victor", Conta = "96335-0", Salario = 1000, CargaHorariaMes = 220, HorasTrabalhadasMes = 200 });
+            funcionarios.Add(new FuncionarioJunior { Nome = "Victor", Conta = "96335-0", Salario = 1000, CargaHorariaMes = 220, HorasTrabalhadasMes = 200 });
 
             foreach (IFuncionario func in funcionarios)
             {
